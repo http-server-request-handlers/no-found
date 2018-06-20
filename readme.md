@@ -38,8 +38,8 @@ var express = require( 'express' )
 var app = express()
 
 // add as the next to last middelware handler, just before completing the IncomingRequest
-// e.g., just before http-server/request-handlers-error-logger
-app.use( require( 'not-found' ) )
+// e.g., just before http-server-request-handlers-error-logger
+app.use( require( 'http-server-request-handlers-not-found' ) )
 ```
 
 ## license
